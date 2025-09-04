@@ -1,5 +1,6 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.3/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+	"version": 3,
 	"settings": {
 		"appearanceTools": true,
 		"useRootPaddingAwareAlignments": true,
@@ -79,13 +80,7 @@
 		},
 		"spacing": {
 			"customSpacingSize": true,
-			"spacingScale": {
-				"increment": 1.5,
-				"mediumStep": 1.5,
-				"operator": "*",
-				"steps": 7,
-				"unit": "rem"
-			},
+			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
 					"name": "Small",
@@ -118,6 +113,7 @@
 			"customFontSize": true,
 			"dropCap": true,
 			"fluid": true,
+			"defaultFontSizes": false,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -593,6 +589,5 @@
 			"title": "Canvas",
 			"postTypes": [ "page" ]
 		}
-	],
-	"version": 2
+	]
 }
